@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Goku",
+    "race": "Saiyan",
+    "description": "The main protagonist of Dragon Ball, raised on Earth and protector of the universe.",
+    "ki": 9001,
+    "originPlanet": "Planet Vegeta"
+  },
+  {
+    "id": 2,
+    "name": "Vegeta",
+    "race": "Saiyan",
+    "description": "Prince of the fallen Saiyan race and rival to Goku.",
+    "ki": 18000,
+    "originPlanet": "Planet Vegeta"
+  },
+  {
+    "id": 3,
+    "name": "Piccolo",
+    "race": "Namekian",
+    "description": "A wise and powerful warrior from Planet Namek.",
+    "ki": 3500,
+    "originPlanet": "Planet Namek"
+  },
+  {
+    "id": 4,
+    "name": "Bulma",
+    "race": "Human",
+    "description": "A brilliant scientist and founding member of the Dragon Team.",
+    "ki": 5,
+    "originPlanet": "Earth"
+  }
+]
