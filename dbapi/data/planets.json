@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Earth",
+    "description": "Home of the Dragon Team and site of many battles.",
+    "galaxy": "Milky Way"
+  },
+  {
+    "id": 2,
+    "name": "Planet Vegeta",
+    "description": "Homeworld of the Saiyan race until its destruction.",
+    "galaxy": "Milky Way"
+  },
+  {
+    "id": 3,
+    "name": "Planet Namek",
+    "description": "Home planet of the Namekians and source of the Namekian Dragon Balls.",
+    "galaxy": "Namekian Galaxy"
+  }
+]
