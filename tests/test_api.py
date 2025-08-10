@@ -19,6 +19,21 @@ def test_get_characters():
     assert any(char["name"] == "Goku" for char in data)
 
 
+def test_filter_characters_by_race():
+    response = client.get("/characters", params={"race": "Saiyan"})
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data) >= 1
+    assert all(char["race"] == "Saiyan" for char in data)
+
+
+def test_filter_characters_by_name():
+    response = client.get("/characters", params={"name": "go"})
+    assert response.status_code == 200
+    data = response.json()
+    assert any("go" in char["name"].lower() for char in data)
+
+
 def test_get_character_by_id():
     response = client.get("/characters/1")
     assert response.status_code == 200
