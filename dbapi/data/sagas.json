@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Saiyan Saga",
+    "description": "The arrival of the Saiyan warriors on Earth."
+  },
+  {
+    "id": 2,
+    "name": "Frieza Saga",
+    "description": "The battle against Frieza on Planet Namek."
+  },
+  {
+    "id": 3,
+    "name": "Cell Saga",
+    "description": "The conflict involving the Androids and Cell."
+  }
+]
